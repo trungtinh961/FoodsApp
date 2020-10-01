@@ -14,7 +14,7 @@ import retrofit2.http.GET;
 
 public interface FoodApi {
 
-    @GET("search.php?f=a")
+    @GET("latest.php")
     Call<Meals> getMeal();
 
     @GET("categories.php")
